@@ -67,7 +67,6 @@ for (const key in _question) {
     if (Object.hasOwnProperty.call(_question, key)) {
         const element = _question[key];
         if (element !== undefined && element !== '') {
-            console.log(element);
            let multichoice = Object.assign(new MultipleChoice,element["MultipleChoice"])
         // Questions.push(element);
             var obj = Object.assign(new QuestionObjects, element);
