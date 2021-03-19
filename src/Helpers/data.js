@@ -36,6 +36,26 @@
 //         answer: "D",
 //     },
 // ];
+class QuestionObjects{
+    constructor(objectid, question, multiplechoice, timeallowedinseconds, answer, userchoice, difficultylevel, isansweredcorrectly) {
+        objectid = this.objectid
+        question = this.question
+        multiplechoice = this.multiplechoice
+        timeallowedinseconds = this.timeallowedinseconds
+        answer = this.answer
+        userchoice = this.userchoice
+        difficultylevel = this.difficultylevel
+        isansweredcorrectly = this.isansweredcorrectly
+    }
+}
+class MultipleChoice{
+    constructor(optionA, optionB, optionC, optionD) {
+        optionA = this.optionA
+        optionB = this.optionB
+        optionC = this.optionC
+        optionD = this.optionD
+    }
+}
 const baseUrl = 'https://my-json-server.typicode.com/nakinnubis/spr/db'
  export var Questions = []
  export const Answers = []
@@ -46,9 +66,15 @@ const baseUrl = 'https://my-json-server.typicode.com/nakinnubis/spr/db'
 for (const key in _question) {
     if (Object.hasOwnProperty.call(_question, key)) {
         const element = _question[key];
-        if(element !==undefined && element !== ''){
-         Questions.push(element);
-            
+        if (element !== undefined && element !== '') {
+            console.log(element);
+           let multichoice = Object.assign(new MultipleChoice,element["MultipleChoice"])
+        // Questions.push(element);
+            var obj = Object.assign(new QuestionObjects, element);
+            obj = multichoice
+            console.log("converted object below")
+            console.log(obj);
+             console.log("converted object above")
         }
     }
 }

@@ -7,10 +7,10 @@
                 "ObjectId": "1",
                 "Question": "what is a noun?",
                 "MultipleChoice": {
-                    "1": "animal, place or thing",
-                    "2": "a type of programming language",
-                    "3": "just a word",
-                    "4": "no"
+                    "optionA": "animal, place or thing",
+                    "optionB": "a type of programming language",
+                    "optionC": "just a word",
+                    "optionD": "no"
                 },
                 "TimeAllowedInSeconds": 60,
                 "Answer": "1",
@@ -22,10 +22,10 @@
                 "ObjectId": "2",
                 "Question": "what is a verb?",
                 "MultipleChoice": {
-                    "1": "it is not an action word",
-                    "2": "it is an action word",
-                    "3": "word that we just say",
-                    "4": "what we use to pump our gas"
+                    "optionA": "it is not an action word",
+                    "optionB": "it is an action word",
+                    "optionC": "word that we just say",
+                    "optionD": "what we use to pump our gas"
                 },
                 "TimeAllowedInSeconds": 60,
                 "Answer": "1",
@@ -37,10 +37,10 @@
                 "ObjectId": "3",
                 "Question": "what is the date Biden sworn-in",
                 "MultipleChoice": {
-                    "1": "January 20, 2020",
-                    "2": "February 23, 2019",
-                    "3": "March 15, 1980",
-                    "4": "October 3, 2021"
+                    "optionA": "January 20, 2020",
+                    "optionB": "February 23, 2019",
+                    "optionC": "March 15, 1980",
+                    "optionD": "October 3, 2021"
                 },
                 "TimeAllowedInSeconds": 60,
                 "Answer": "1",
