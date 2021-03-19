@@ -36,7 +36,7 @@
 //         answer: "D",
 //     },
 // ];
-const baseUrl = 'https://miraskincareltd.com/controllers/processors/get-questions.php?limit=100'
+const baseUrl = 'https://my-json-server.typicode.com/nakinnubis/spr/db'
  export var Questions = []
  export const Answers = []
  fetch(baseUrl)

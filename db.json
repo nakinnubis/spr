@@ -29,7 +29,7 @@
                 },
                 "TimeAllowedInSeconds": 60,
                 "Answer": "1",
-                "UserChoice": "",
+                "UserChoice": null,
                 "DifficultyLevel": "Hard",
                 "IsAnsweredCorrectly": false
             },
@@ -44,7 +44,7 @@
                 },
                 "TimeAllowedInSeconds": 60,
                 "Answer": "1",
-                "UserChoice": "",
+                "UserChoice": null,
                 "DifficultyLevel": "Hard",
                 "IsAnsweredCorrectly": false
             }
