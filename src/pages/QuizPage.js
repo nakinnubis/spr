@@ -66,7 +66,7 @@ const QuizPage =()=> {
                         Question <span>{currQuestion + 1}</span> of <span>{Questions.length}</span>
                     </div>
                     <div className="question">
-                        <p className="question-para">{Questions[currQuestion]}</p>
+                        <p className="question-para">{Questions[currQuestion]["Question"]}</p>
                     </div>
                 <div className='dots'>
             {Questions?.map((data) => {
@@ -94,10 +94,10 @@ const QuizPage =()=> {
           </div>
         </Screen> 
         <section className="options">
-            <CustomBtn function={()=>setOptionChosen('A')} cname="option__button outline"> {Questions[currQuestion] }</CustomBtn>
-            <CustomBtn function={()=>setOptionChosen('B')} cname="option__button outline"> {Questions[currQuestion] }</CustomBtn>
-            <CustomBtn function={()=>setOptionChosen('C')} cname="option__button outline"> {Questions[currQuestion] }</CustomBtn>
-            <CustomBtn function={()=>setOptionChosen('D')} cname="option__button outline"> {Questions[currQuestion] }</CustomBtn>
+            <CustomBtn function={()=>setOptionChosen('A')} cname="option__button outline"> {Questions[currQuestion]["MultipleChoice"]["optionA"] }</CustomBtn>
+            <CustomBtn function={()=>setOptionChosen('B')} cname="option__button outline"> {Questions[currQuestion]["MultipleChoice"]["optionB"] }</CustomBtn>
+            <CustomBtn function={()=>setOptionChosen('C')} cname="option__button outline"> {Questions[currQuestion]["MultipleChoice"]["optionC"]  }</CustomBtn>
+            <CustomBtn function={()=>setOptionChosen('D')} cname="option__button outline"> {Questions[currQuestion]["MultipleChoice"]["optionD"]  }</CustomBtn>
 
 
         </section>

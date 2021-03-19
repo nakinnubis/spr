@@ -68,12 +68,9 @@ for (const key in _question) {
         const element = _question[key];
         if (element !== undefined && element !== '') {
            let multichoice = Object.assign(new MultipleChoice,element["MultipleChoice"])
-        // Questions.push(element);
-            var obj = Object.assign(new QuestionObjects, element);
-            obj = multichoice
-            console.log("converted object below")
-            console.log(obj);
-             console.log("converted object above")
+            var questionobj = Object.assign(new QuestionObjects, element);
+            questionobj.multiplechoice = multichoice
+           Questions.push(questionobj);
         }
     }
 }

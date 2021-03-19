@@ -13,7 +13,7 @@
                     "optionD": "no"
                 },
                 "TimeAllowedInSeconds": 60,
-                "Answer": "1",
+                "Answer": "optionA",
                 "UserChoice": null,
                 "DifficultyLevel": "Hard",
                 "IsAnsweredCorrectly": false
@@ -28,7 +28,7 @@
                     "optionD": "what we use to pump our gas"
                 },
                 "TimeAllowedInSeconds": 60,
-                "Answer": "1",
+                "Answer": "optionA",
                 "UserChoice": null,
                 "DifficultyLevel": "Hard",
                 "IsAnsweredCorrectly": false
@@ -43,7 +43,7 @@
                     "optionD": "October 3, 2021"
                 },
                 "TimeAllowedInSeconds": 60,
-                "Answer": "1",
+                "Answer": "optionA",
                 "UserChoice": null,
                 "DifficultyLevel": "Hard",
                 "IsAnsweredCorrectly": false
